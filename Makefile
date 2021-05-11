@@ -2,7 +2,7 @@ old-dtb := $(dtb-y)
 old-dtbo := $(dtbo-y)
 dtb-y :=
 dtbo-y :=
-makefile-path := platform/t19x/jakku/kernel-dts
+makefile-path := platform/t19x/jakku/
 
 dtb-$(CONFIG_ARCH_TEGRA_19x_SOC) += tegra194-p3668-all-p3509-0000.dtb
 dtb-$(CONFIG_ARCH_TEGRA_19x_SOC) += tegra194-p3668-all-p3509-0000-kexec.dtb
